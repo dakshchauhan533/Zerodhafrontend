@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ /* navbar */
+
+ 
+ .nav-link{
+  margin-left: 40px;
+  font-size:14.4px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight:545;
+}
+.nav-link:hover{
+  color: #38DE;
+  opacity: 1;
+}
+.nav-link:focus{
+  color: #38DE;
+  opacity: 1;
+}
+.nav-link:active{
+  color: #387ed1;
+  opacity: 1;
+}
+.nav-link:hover{
+  color: #387ed1;
+  opacity: 1;
+}
+
+
+/* about page */
+
+
+
+.aboutpagehero{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+
+.heroproduct{
+  padding-bottom:80px;
+  padding-top:80px;
+  
+}
+
+
+
+/* pricing */
