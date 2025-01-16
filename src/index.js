@@ -9,11 +9,11 @@ import Aboutpage from "./landing_page/about/Aboutpage";
 import Pricingpage from "./landing_page/pricing/Pricingpage";
 import Productpage from "./landing_page/product/Productpage";
 import Supportpage from "./landing_page/support/Supportpage";
-import Navbar from "./landing_page/Navbar";
-import Footer from "./landing_page/Footer";
-import Notfound from "./landing_page/Notfound";
+import Navbar from "./landing_page/Navbar/Navbar";
+import Footer from "./landing_page/Footer/Footer";
+import Notfound from "./landing_page/Notfound/Notfound";
 import "react-toastify/dist/ReactToastify.css";
-import Login from "../src/landing_page/login";
+import Login from "./landing_page/Login/Login";
 import { AuthProvider } from './context/AuthContext';
 import DashboardWrapper from './DashboardWrapper';
 
