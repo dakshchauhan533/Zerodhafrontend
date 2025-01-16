@@ -34,7 +34,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:8001/login",
+        "https://zerodhabackend-7odn.onrender.com/login",
         {
           ...inputValue,
         },
