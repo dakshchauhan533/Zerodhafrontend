@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 // import AuthContext from "../context/AuthContext.js";
 
 function Navbar() {
-  const { isAuthenticated, logout } = useContext(AuthContext);
+  // const { isAuthenticated, logout } = useContext(AuthContext);
 
   return (
     <div className='container border-bottom'>
