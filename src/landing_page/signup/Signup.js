@@ -3,7 +3,7 @@ import React, { useState, useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
-import AuthContext from "../../context/AuthContext";
+import AuthContext from "../context/AuthContext";
 
 const Signup = () => {
   const navigate = useNavigate();

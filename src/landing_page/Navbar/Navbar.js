@@ -1,7 +1,7 @@
 // filepath: /c:/Users/chauh/Desktop/projects/Zerodha/frontend/src/landing_page/Navbar.js
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import AuthContext from '../context/AuthContext';
+import AuthContext from "../context/AuthContext.js";
 
 function Navbar() {
   const { isAuthenticated, logout } = useContext(AuthContext);
