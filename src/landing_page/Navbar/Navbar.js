@@ -1,7 +1,7 @@
 // filepath: /c:/Users/chauh/Desktop/projects/Zerodha/frontend/src/landing_page/Navbar.js
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import AuthContext from "../context/AuthContext.js";
+// import AuthContext from "../context/AuthContext.js";
 
 function Navbar() {
   const { isAuthenticated, logout } = useContext(AuthContext);
@@ -20,7 +20,7 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul className="navbar-nav mb-2 mb-lg-0 align-items-center">
-              {isAuthenticated ? (
+              {/* {isAuthenticated ? ( */}
                 <>
                   <li className="nav-item">
                     <Link className='nav-link' to='/'>Home</Link>
@@ -37,23 +37,25 @@ function Navbar() {
                   <li className="nav-item">
                     <Link className='nav-link' to='/support'>Support</Link>
                   </li>
-                  {/* <li className="nav-item">
+                  <li className="nav-item">
                     <Link className='nav-link' to='/dashboard'>Dashboard</Link>
-                  </li> */}
+                  </li>
                   <li className="nav-item">
                     <button className='nav-link btn' onClick={logout}>Sign Out</button>
                   </li>
                 </>
-              ) : (
-                <>
-                  <li className="nav-item">
-                    <Link className='nav-link' to='/signup'>Sign Up</Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link className='nav-link' to='/login'>Login</Link>
-                  </li>
-                </>
-              )}
+              {/* ) :
+              //  (
+              //   <>
+              //     <li className="nav-item">
+              //       <Link className='nav-link' to='/signup'>Sign Up</Link>
+              //     </li>
+              //     <li className="nav-item">
+              //       <Link className='nav-link' to='/login'>Login</Link>
+              //     </li>
+              //   </>
+              // )
+              } */}
             </ul>
           </div>
         </div>
